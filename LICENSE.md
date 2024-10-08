@@ -2,7 +2,7 @@
 This README outlines the key features and gives a step-by-step guide on how to install and run the project. If you need more specific sections or adjustments, feel free to let me know!
 MIT License
 
-Copyright (c) 2024 [Your Name or Organization Name]
+Copyright (c) 2024 DataSciLearn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -79,6 +79,12 @@ The source code for the project is licensed under the MIT license, which you can
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Connect with Us
+
+- 📷 Instagram: [DataSciLearn](https://www.instagram.com/datascilearn/)
+- 📺 YouTube: [DataSciLearn](https://www.youtube.com/@DataSciLearn)
+- 📣 Telegram: [Join us on Telegram](https://t.me/datascilearn)
+
 
 
 
