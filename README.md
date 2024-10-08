@@ -30,9 +30,11 @@ This project provides an end-to-end solution for processing podcast audio files 
 
 ## Requirements 📋
 
-Make sure to install the necessary dependencies by using the `requirements.txt` file provided in this project.
+- Python 3.8 or higher
+- Virtual environment management tool (venv, conda, etc.)
+- All dependencies listed in `requirements.txt`
 
-## How to Run 🚀
+## Installation and Setup 🛠️
 
 ### 1. Clone the repository
 
@@ -41,19 +43,43 @@ git clone <repository-url>
 cd <repository-folder>
 ```
 
-### 2. Install dependencies
+### 2. Create and activate virtual environment
+
+#### Using venv (Python's built-in virtual environment)
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+```
+
+#### Using conda
+```bash
+# Create conda environment
+conda create -n venv python=3.12
+
+# Activate conda environment
+conda activate venv
+```
+
+### 3. Install dependencies
 
 ```bash
+# Make sure your virtual environment is activated
 pip install -r requirements.txt
 ```
 
-### 3. Run the Streamlit app
+### 4. Run the Streamlit app
 
 ```bash
 streamlit run app.py
 ```
 
-### 4. Usage
+### 5. Usage
 Upload a podcast MP3 and interact with the transcription through the Q&A interface.
 
 ## Tech Stack 🛠️
@@ -66,6 +92,14 @@ Upload a podcast MP3 and interact with the transcription through the Q&A interfa
 - **Pydub**: Used for handling and chunking audio files
 - **Sentence-Transformers**: For generating embeddings from text chunks
 - **Tiktoken**: For tokenizing text
+
+## Troubleshooting 🔍
+
+If you encounter any dependency-related issues:
+1. Make sure your virtual environment is activated
+2. Verify Python version compatibility: `python --version`
+3. Try upgrading pip: `pip install --upgrade pip`
+4. If using conda, ensure conda-forge channel is added: `conda config --add channels conda-forge`
 
 ## License 📄
 
@@ -84,8 +118,6 @@ The source code for the project is licensed under the MIT license, which you can
 - 📷 Instagram: [DataSciLearn](https://www.instagram.com/datascilearn/)
 - 📺 YouTube: [DataSciLearn](https://www.youtube.com/@DataSciLearn)
 - 📣 Telegram: [Join us on Telegram](https://t.me/datascilearn)
-
-
 
 
 
