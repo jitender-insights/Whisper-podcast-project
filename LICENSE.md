@@ -1,5 +1,3 @@
-
-This README outlines the key features and gives a step-by-step guide on how to install and run the project. If you need more specific sections or adjustments, feel free to let me know!
 MIT License
 
 Copyright (c) 2024 DataSciLearn
